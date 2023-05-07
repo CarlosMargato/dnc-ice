@@ -23,16 +23,16 @@ function Landing() {
     <div className='displayCubo'>
        <div className='displayCuboLine'>
             <div className='cuboLaranja'>
-                <p>2023</p>
-                <p>é o prazo máximo para as escolas iniciarem o novo ensino-médio</p>
+                <p className='cubo2023'>2023</p>
+                <p className='cuboText'>é o prazo máximo para as escolas iniciarem o novo ensino-médio</p>
             </div>
             <div className='cuboBranco'>
-                <p>81%</p>
-                <p>dos empregadores relatam dificuldade para encontrar  professores qualificados.</p>
+                <p className='cubo81'>81%</p>
+                <p className='cuboText'>dos empregadores relatam dificuldade para encontrar  professores qualificados.</p>
             </div>
             <div className='cuboVerde'>
-                <p>Nós estamos mudando isso!</p>
-                <p>Ajudaremos os professores  para se prepararem para o novos itinerários do Novo Ensino Médio</p>
+                <p className='cuboTitle'>Nós estamos mudando isso!</p>
+                <p className='cuboText'>Ajudaremos os professores  para se prepararem para o novos itinerários do Novo Ensino Médio</p>
             </div>
         </div>
         <div className='displaCuboText'>
