@@ -1,6 +1,14 @@
 .titulo{
-    background-color: #7053EB;
+    background-color: #2A8950;
     width: 100%;
 height: 80px;
-display: inline-flex;
+display:flexbox;
+flex-direction: row;
+color:  #ffffff;
+text-align: center;
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 78px;
 }

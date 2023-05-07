@@ -1,6 +1,26 @@
 .footer{
-    background-color: #C0CE3A;
+    background-color: #C73131;
     width: 100%;
 height: 80px;
-display: inline-flex;
+display:flex;
+flex-direction:column;
+color:  #ffffff;
+text-align: right;
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+}
+
+.footer div{
+    text-align: right;
+    margin-right: 129px;
+}
+.copyright{
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+.pg{
+    margin-top: 0px;
+    margin-bottom: 19px;
 }

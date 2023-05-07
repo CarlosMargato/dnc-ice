@@ -4,26 +4,24 @@ import Header from '../Header'
 import teacherTop from '../Assets/professoraTop.png'
 import teacherMiddle from '../Assets/professorameio.svg'
 import teacherBottom from '../Assets/professorbaixo.svg'
+import "../Landing/style.css"
 
 function Landing() {
   return (
     <>
     <Header/>
-    <div>
-        <div>
-        <p>Se prepare para o Novo Ensino Médio.</p>
-        <p>A Ice Educação quer te preparar para esse novo desafio.</p>
-        <p>Daremos uma aula gratuita pra você entender como será o Novo Ensino Médio, dicas pra se preparar e como afetará a forma de desenvolver aulas para os alunos.</p>
-        </div>
-        <div>
-            <button type="submit">Participe da nossa Aula Gratuita</button>
+    <div className='displayBoxtop'>
+        <div className='displayTextTop'>
+            <p className='displayTitleTop'>Como lecionar Educação Financeira para alunos do Novo Ensino Médio?</p>
+            <p className='displayResumeTop'>Daremos um material exclusivo pra você entender como lecionar Educação Financeira no Novo Ensino Médio, dicas de conteúdo programático, exercícios a serem ministrados e muito mais.</p>
+            <button className='displayButton' type="submit">Cadastre-se já e receba o material</button>
         </div>
         <div>
             <img src={teacherTop} alt="" />
         </div>
     </div>
-    <div className='quadradoRoxo'>
-        <div>
+    <div className='displayCubo'>
+       <div className='displayCuboLine'>
             <div className='cuboLaranja'>
                 <p>2023</p>
                 <p>é o prazo máximo para as escolas iniciarem o novo ensino-médio</p>
@@ -34,39 +32,42 @@ function Landing() {
             </div>
             <div className='cuboVerde'>
                 <p>Nós estamos mudando isso!</p>
-                <p>Com a ICE Educação, os professores terão todo o apoio pra os novos itinerários</p>
+                <p>Ajudaremos os professores  para se prepararem para o novos itinerários do Novo Ensino Médio</p>
             </div>
         </div>
-        <div>
-            <p>Nós preparamos uma aula gratuita para os professores para o Novo Ensino Médio</p>
-            <p>Somos um streaming de cursos para professores</p>
-            <p>Nosso objetivo é trazer conteúdos voltado para leccionar e dar base para preparar aulas dinamicas e interressantes para os alunos</p>
+        <div className='displaCuboText'>
+            <p className='displayCuboTitle'>Nós preparamos um material gratuito de Educação Financeira para os professores  do Novo Ensino Médio</p>
+            <p className='displayCuboResume'>Somos um streaming de cursos para professores</p>
+            <p className='displayCuboResume'>Nosso objetivo é trazer conteúdos voltado para leccionar e dar base para preparar aulas dinamicas e interressantes para os alunos</p>
         </div>
     </div>
-    <div>
-        <div>
-            <p>PARA PROFESSORES</p>
-            <p>Prepare-se para o Novo Ensino Médio</p>  
-            <p>Participe de nossa aula totalmente gratuita para você entender sobre o novo ensino médio: suas necessidades, exigências e direcionamento</p>
+    <div className='displayBoxMiddle'>
+        <div className='displayTextMiddle'>
+            <p className='displayTitleMiddle'>Conteúdo do material</p>
+         
+            <li className='displayTopic'>Filmes com temáticas sobre educação financeira, finanças e empreendedorismo</li>
+            <li className='displayTopic'>Vida familiar e cotidiana</li>
+            <li className='displayTopic'>Você é gastador ou poupador?</li>
+            <li className='displayTopic'>Como utilizar livros de educação financeira em sala de aula</li>
+           
+      
+            <button className='displayButton' type="submit">Cadastre-se e receba o material</button>
+
         </div>
-        <div>
-            <button type="submit">Faça parte desse novo momento</button>
-        </div>
-        <div>
+        <div className='displayIMG'>
             <img src={teacherMiddle} alt="" />
         </div>
     </div>
-    <div>
+    <div className='displayBoxBottom'>
         <div>
             <img src={teacherBottom} alt="" />
         </div>
-        <div>
-            <p>PARA ESCOLAS</p>
-            <p>Tenha uma equipe pronta para os novos requisitos</p>  
-            <p>Com o nosso programa de treinmento para as eletivas alinhadas à BNCC, oferecemos aos professores do ensino médio a oportunidade de preparar para os novos requisitos do novo ensino médio</p>
-        </div>
-        <div>
-            <button type="submit">Cadastre-se para aula gratuita</button>
+        <div className='displayTextBottom'>
+            <p className='displayForSchool'>PARA ESCOLAS</p>
+            <p className='displayTitleBottom'>Sua equipe Docente pronta para o Novo</p>  
+            <p className='displayResumeBottom'>Com o nosso programa de treinmento para as eletivas alinhadas à BNCC, oferecemos aos professores do ensino médio a oportunidade de preparar para os novos requisitos do novo ensino médio</p>
+
+            <button className='displayButton'type="submit">Fale com nossos consultores</button>
         </div>
     </div>
     <Footer/>
