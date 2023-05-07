@@ -5,8 +5,10 @@ import teacherTop from '../Assets/professoraTop.png'
 import teacherMiddle from '../Assets/professorameio.svg'
 import teacherBottom from '../Assets/professorbaixo.svg'
 import "../Landing/style.css"
+import { useNavigate } from 'react-router-dom';
 
 function Landing() {
+    const navigate = useNavigate();
   return (
     <>
     <Header/>
@@ -14,7 +16,7 @@ function Landing() {
         <div className='displayTextTop'>
             <p className='displayTitleTop'>Como lecionar Educação Financeira para alunos do Novo Ensino Médio?</p>
             <p className='displayResumeTop'>Daremos um material exclusivo pra você entender como lecionar Educação Financeira no Novo Ensino Médio, dicas de conteúdo programático, exercícios a serem ministrados e muito mais.</p>
-            <button className='displayButton' type="submit">Cadastre-se já e receba o material</button>
+            <button className='displayButton' type="submit" onClick={() =>navigate('/formulario')}>Cadastre-se já e receba o material</button>
         </div>
         <div>
             <img src={teacherTop} alt="" />
@@ -35,7 +37,7 @@ function Landing() {
                 <p className='cuboText'>Ajudaremos os professores  para se prepararem para o novos itinerários do Novo Ensino Médio</p>
             </div>
         </div>
-        <div className='displaCuboText'>
+        <div className='displayCuboText'>
             <p className='displayCuboTitle'>Nós preparamos um material gratuito de Educação Financeira para os professores  do Novo Ensino Médio</p>
             <p className='displayCuboResume'>Somos um streaming de cursos para professores</p>
             <p className='displayCuboResume'>Nosso objetivo é trazer conteúdos voltado para leccionar e dar base para preparar aulas dinamicas e interressantes para os alunos</p>
@@ -51,7 +53,7 @@ function Landing() {
             <li className='displayTopic'>Como utilizar livros de educação financeira em sala de aula</li>
            
       
-            <button className='displayButton' type="submit">Cadastre-se e receba o material</button>
+            <button className='displayButton' type="submit" onClick={() =>navigate('/formulario')}>Cadastre-se e receba o material</button>
 
         </div>
         <div className='displayIMG'>
@@ -67,7 +69,7 @@ function Landing() {
             <p className='displayTitleBottom'>Sua equipe Docente pronta para o Novo</p>  
             <p className='displayResumeBottom'>Com o nosso programa de treinmento para as eletivas alinhadas à BNCC, oferecemos aos professores do ensino médio a oportunidade de preparar para os novos requisitos do novo ensino médio</p>
 
-            <button className='displayButton'type="submit">Fale com nossos consultores</button>
+            <button className='displayButton'type="submit" onClick={() =>navigate('/formulario')}>Fale com nossos consultores</button>
         </div>
     </div>
     <Footer/>
