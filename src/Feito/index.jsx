@@ -1,7 +1,6 @@
 import React from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
-import sala from'../Assets/sala-de-aula.png'
 import '../Feito/style.css'
 
 function Feito() {
