@@ -1,0 +1,101 @@
+.fullForm{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    flex-flow:row;
+justify-content: space-evenly;
+    
+}
+.displayBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow:row;
+    margin-top: 121px;
+    margin-left: 70px;
+    margin-right: 155px;
+    margin-bottom: 155px;
+}
+
+.displayText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width: 636px;
+    height: 421px;
+    left: 472px;
+    right: 860px;
+    top: 219px;
+     margin-right: 70px;
+    margin-left: 39px;
+}
+
+.title{
+    font-family: 'Amaranth';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.resume{
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.displayForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    width: 635px;
+    background: #7053E6;
+    border-radius: 45px;
+}
+
+.InputForm{
+    width: 527px;
+    height: 49px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 57px;
+    margin-right: 57px;
+    padding-left: 12px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.buttonQuero{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 189px;
+    height: 50px;
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2A8950;
+    border: 2px solid #FFFFFF;
+    border-radius: 13px;
+}
+
+@media only screen and (max-device-width: 412px) {
+    
+}

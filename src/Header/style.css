@@ -12,3 +12,18 @@ font-weight: 800;
 font-size: 48px;
 line-height: 78px;
 }
+
+@media only screen and (max-device-width: 412px) {
+    .titulo{
+    display: flex;
+   flex-direction: row;
+   width: 412px;
+        background-color: #2A8950;
+        color:  #ffffff;
+        font-family: 'Amaranth';
+font-style: normal;
+font-weight: 800;
+        font-size: 15px;
+
+    }
+}

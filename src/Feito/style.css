@@ -1,0 +1,27 @@
+.feito{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 817px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 320px;
+    
+    background: url(../Assets/sala-de-aula.png);
+    border-radius: 40px;
+}
+.cadastro{
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+    
+}
+
+@media only screen and (max-device-width: 412px) {
+    
+}
