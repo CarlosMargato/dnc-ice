@@ -19,7 +19,7 @@ function Landing() {
             <button className='displayButton' type="submit" onClick={() =>navigate('/formulario')}>Cadastre-se já e receba o material</button>
         </div>
         <div>
-            <img src={teacherTop} alt="" />
+            <img className='displayProfIMG' src={teacherTop} alt="" />
         </div>
     </div>
     <div className='displayCubo'>
@@ -57,17 +57,17 @@ function Landing() {
 
         </div>
         <div className='displayIMG'>
-            <img src={teacherMiddle} alt="" />
+            <img className='displayProfIMG' src={teacherMiddle} alt="" />
         </div>
     </div>
     <div className='displayBoxBottom'>
         <div>
-            <img src={teacherBottom} alt="" />
+            <img className='displayProfIMG' src={teacherBottom} alt="" />
         </div>
         <div className='displayTextBottom'>
             <p className='displayForSchool'>PARA ESCOLAS</p>
             <p className='displayTitleBottom'>Sua equipe Docente pronta para o Novo</p>  
-            <p className='displayResumeBottom'>Com o nosso programa de treinmento para as eletivas alinhadas à BNCC, oferecemos aos professores do ensino médio a oportunidade de preparar para os novos requisitos do novo ensino médio</p>
+            <p className='displayResumeBottom'>Com o nosso programa de treinamento para as eletivas alinhadas à BNCC, oferecemos aos professores do ensino médio a oportunidade de preparar para os novos requisitos do novo ensino médio</p>
 
             <button className='displayButton'type="submit" onClick={() =>navigate('/formulario')}>Fale com nossos consultores</button>
         </div>

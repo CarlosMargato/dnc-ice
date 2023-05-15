@@ -23,5 +23,29 @@
 }
 
 @media only screen and (max-device-width: 412px) {
-    
+    .feito{
+        display: flex;
+
+        align-items:baseline;
+        justify-content: center;
+        width: 350px;
+        height: 412px;
+        margin-top: 200px;
+        margin-bottom: 32px;
+        margin-left: 16px;
+        
+        background: url(../Assets/sala-de-aula.png);
+        background-repeat: no-repeat;
+        background-size: 350px;
+        border-radius: 10px;
+    }
+    .cadastro{
+        font-family: 'Amaranth';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 78px;
+        color: #000000;
+        
+    }
 }

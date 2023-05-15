@@ -13,8 +13,8 @@ function Formulario() {
     <div className='fullForm'>
    
     <div className='displayBox'>
-      <div>
-        <img src={professoraForm} alt="" />
+      <div className='imgPROF'>
+        <img  src={professoraForm} alt="" />
       </div>
       <div className='displayText'>
         <p className='title'>Cadastre-se e lhe enviaremos o informativo sobre Educação Financeira no Novo Ensino Médio</p>

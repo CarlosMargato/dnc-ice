@@ -3,5 +3,8 @@
 }
 
 @media only screen and (max-device-width: 412px) {
-  .App { width: 412px;}
+  .App {
+    text-align: center; 
+    width: 412px;
+  }
 }

@@ -15,15 +15,19 @@ line-height: 78px;
 
 @media only screen and (max-device-width: 412px) {
     .titulo{
-    display: flex;
+    display: block;
    flex-direction: row;
-   width: 412px;
+   height: 80px;
+   width: 100%;
+   text-align: center;
         background-color: #2A8950;
         color:  #ffffff;
+        text-align: center;
         font-family: 'Amaranth';
+        justify-content:center;
 font-style: normal;
 font-weight: 800;
-        font-size: 15px;
+        font-size: 1.1rem;
 
     }
 }

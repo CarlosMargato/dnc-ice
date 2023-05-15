@@ -1,7 +1,7 @@
 .fullForm{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    justify-content: center;
     flex-flow:row;
 justify-content: space-evenly;
     
@@ -96,6 +96,108 @@ color: #000000;
     border-radius: 13px;
 }
 
-@media only screen and (max-device-width: 412px) {
+@media only screen and (max-device-width: 413px) {
+    .fullForm{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-flow:column;
+        justify-content: center;
+    }
     
+    .displayBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-flow:column;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .imgPROF{
+        display: none;
+    }
+
+    .displayText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 412px;
+        height: 421px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .title{
+        width: 350px;
+        font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    }
+    
+    .resume{
+        width: 360px;
+        font-family: 'Amaranth';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        display: flex;
+        margin-left: 5px;
+        margin-right: 8px;
+        margin-bottom: 80px;
+        align-items: center;
+    }
+    
+    .displayForm{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 370px;
+        margin-left: 10px;
+        background: #7053E6;
+        border-radius: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .InputForm{
+        width: 75%;
+        height: 75%;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 12px;
+        font-family: 'Amaranth';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+    
+    .buttonQuero{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Amaranth';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #2A8950;
+        border: 2px solid #FFFFFF;
+        border-radius: 13px;
+        margin: 15px;
+    }
 }
