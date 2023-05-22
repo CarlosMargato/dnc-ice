@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-@media only screen and (max-device-width: 412px) {
+/* @media only screen and (max-device-width: 720px) {
   .App {
     text-align: center; 
-    width: 412px;
+
   }
-}
+} */
